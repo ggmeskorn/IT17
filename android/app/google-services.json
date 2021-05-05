@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370731976192",
+    "project_id": "silver-device-304623",
+    "storage_bucket": "silver-device-304623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370731976192:android:1762f138412feb84f0fae5",
+        "android_client_info": {
+          "package_name": "com.flutterthailand.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370731976192-0nuaebt1t8lfqckrjjuudjdiq91ao1nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeUGwnwQ7iwtM-SY8gNo1tapNPN9-cS6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370731976192-0nuaebt1t8lfqckrjjuudjdiq91ao1nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,939 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+MERGED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+MERGED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-18:12
+MERGED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:google_maps_flutter] /Users/gamewan/final_project/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gamewan/final_project/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:google_sign_in] /Users/gamewan/final_project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] /Users/gamewan/final_project/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] /Users/gamewan/final_project/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_cropper] /Users/gamewan/final_project/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location_web] /Users/gamewan/final_project/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:multi_image_picker] /Users/gamewan/final_project/build/multi_image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth_web] /Users/gamewan/final_project/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/gamewan/final_project/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] /Users/gamewan/final_project/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_app_badger] /Users/gamewan/final_project/build/flutter_app_badger/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/gamewan/final_project/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:path_provider] /Users/gamewan/final_project/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d77142c07cc4930e9c445b911c0be716/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/811913d1f9d49afd1f305a30760fb08d/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1e4596d7d42fb4103faacba9cf799b40/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f41936304f1c410a98f38141cc5d0972/jetified-ucrop-2.2.6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e535bab45197c5260dcfa2c6e06d9078/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/57de8b3c13c50daf03b6eed713bf8689/exifinterface-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/971801a803775143b24e3ff1ce2d1c07/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/b14eb4d4179687e99fd44210f49477a4/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/460f3ec9a4fecc16bca767b8fab1e9ea/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9fa991601512de5281a9e7347f2bd1e7/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3ee07ad2dfbbb18ec9f2cf9748821108/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a5d89c105709a5cc17bf3171d0860cd/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fce676c3600d2738af5cf11eb4b583dc/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a8d78d73708d7b0f06de06b4d97eab3/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6d658ab7298d1cf51f476f00b4ba1d74/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b6a5c3e0a4ebd5aaf630d193ac05145/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8b97523ef74e1b18dc5cf51fc50aabbc/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a13e2d2087cd819036eafaeed3394587/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bcebbe6279c8572bd69a0fbec9e382f8/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1f55a8d9752f1c30f3b5e03ae349aed3/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a8257665e303c95d3e5ff25c414f3475/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/c8f9404afb07f841d7f9ab8fe830e1a0/transition-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/01607e84bef93668e373a264f40e6686/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/71411f6b1ea81073448bb802874e7a1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1aac56b7e3311113d2104b96b818f8b7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6b10df0434ab3de027cf7440c672c792/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/42349a4fcb25201cea8390141b4e9909/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e2bbc0675b6364716a74ebf118cb9569/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e92073c0ceaac885ab6a7f7e0d1902c9/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877a1197d5b2248c65ee61346e6431c2/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb6e555c3934f04ac944c5d2f58e0058/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d268927a8c488ee120d74e0e258c0183/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ab761a49ed19a2e89631c7aebafbb257/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9c212c07db0336bbe38419cea7c5eb1a/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/15271e74e85ff82ba8d20c7d274c490a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/db08de22034385d1b2e79b543e7f608d/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b06ebd5991113af047a4d537de97d2f/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/623cf910d95fe6d3d763327f2ca30e02/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/93551be13a60d5d3f8a3b1cc9e5c6dcb/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e3106f2cb215474e2a0dc78203590b2d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e69258aa4d63577d6aa5ea2547619947/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/75fc56f6d37601aaa4ef14f428a94986/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb128370d4a03c531cd5eb105731ea32/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/76e7b6024323e8d3ebb6bd692d4627e2/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fa07bd0badbd9f9271061c4bcfd5a16b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c9439cc03756484129db2bcf57c37/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ee1db6b6fb420c9013aa994ae1fbb739/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3e0c329d1e83d02c8fa378a2f6e59c4d/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/825316423a6e2c771677160c6b19533a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3b659bfc43abc2c4e766bc97ed7778f3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877ba33033338dc30fc12dd24442ce09/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c7a2687dd0bfb962b4ea52cbfc4ab/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/56021747b2f2239a2d76d36af82961ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ce2bc26acdddb59e05429165962ae961/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a3365a7c5df92de28aea48a0697c0c19/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/716fe069a23380ce3dc31827d553e859/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/775fd5c0a3b3b8aab4e9b47d3aa02f06/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:2:5-48
+		INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+		INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:1-56:12
+		INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:3:5-65
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:3:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:google_sign_in] /Users/gamewan/final_project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:google_sign_in] /Users/gamewan/final_project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:6:5-81
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:7:5-66
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:8:22-74
+application
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:9:4-55:19
+MERGED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-16:19
+MERGED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d77142c07cc4930e9c445b911c0be716/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d77142c07cc4930e9c445b911c0be716/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:11:5-32:19
+MERGED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:11:5-32:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/811913d1f9d49afd1f305a30760fb08d/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/811913d1f9d49afd1f305a30760fb08d/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e535bab45197c5260dcfa2c6e06d9078/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e535bab45197c5260dcfa2c6e06d9078/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/b14eb4d4179687e99fd44210f49477a4/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/b14eb4d4179687e99fd44210f49477a4/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/460f3ec9a4fecc16bca767b8fab1e9ea/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/460f3ec9a4fecc16bca767b8fab1e9ea/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9fa991601512de5281a9e7347f2bd1e7/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9fa991601512de5281a9e7347f2bd1e7/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fce676c3600d2738af5cf11eb4b583dc/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fce676c3600d2738af5cf11eb4b583dc/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a8d78d73708d7b0f06de06b4d97eab3/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a8d78d73708d7b0f06de06b4d97eab3/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6d658ab7298d1cf51f476f00b4ba1d74/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6d658ab7298d1cf51f476f00b4ba1d74/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b6a5c3e0a4ebd5aaf630d193ac05145/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b6a5c3e0a4ebd5aaf630d193ac05145/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8b97523ef74e1b18dc5cf51fc50aabbc/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8b97523ef74e1b18dc5cf51fc50aabbc/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a13e2d2087cd819036eafaeed3394587/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a13e2d2087cd819036eafaeed3394587/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bcebbe6279c8572bd69a0fbec9e382f8/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bcebbe6279c8572bd69a0fbec9e382f8/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/76e7b6024323e8d3ebb6bd692d4627e2/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/76e7b6024323e8d3ebb6bd692d4627e2/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c9439cc03756484129db2bcf57c37/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c9439cc03756484129db2bcf57c37/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ce2bc26acdddb59e05429165962ae961/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ce2bc26acdddb59e05429165962ae961/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/775fd5c0a3b3b8aab4e9b47d3aa02f06/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/775fd5c0a3b3b8aab4e9b47d3aa02f06/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+	android:requestLegacyExternalStorage
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:10:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:12:9-38
+	android:hardwareAccelerated
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:16:9-43
+	android:largeHeap
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:14:9-35
+	android:usesCleartextTraffic
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:15:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:18:9-19:73
+	android:value
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:19:16-71
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:18:20-65
+activity#com.flutterthailand.final_project.MainActivity
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:21:9-49:20
+	android:launchMode
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:23:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:26:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:27:13-55
+	android:configChanges
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:25:13-163
+	android:theme
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:24:13-47
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:22:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:34:15-52
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:33:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:41:13-44:17
+	android:resource
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:43:15-61
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:42:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:47:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:52:9-54:33
+	android:value
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:54:13-30
+	android:name
+		ADDED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml:53:13-44
+uses-sdk
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+MERGED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/gamewan/final_project/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_maps_flutter] /Users/gamewan/final_project/build/google_maps_flutter/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gamewan/final_project/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/gamewan/final_project/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/gamewan/final_project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_sign_in] /Users/gamewan/final_project/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/gamewan/final_project/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/gamewan/final_project/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/gamewan/final_project/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/gamewan/final_project/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/gamewan/final_project/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /Users/gamewan/final_project/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/gamewan/final_project/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_web] /Users/gamewan/final_project/build/location_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:multi_image_picker] /Users/gamewan/final_project/build/multi_image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:multi_image_picker] /Users/gamewan/final_project/build/multi_image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/gamewan/final_project/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] /Users/gamewan/final_project/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/gamewan/final_project/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/gamewan/final_project/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/gamewan/final_project/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/gamewan/final_project/build/fluttertoast/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] /Users/gamewan/final_project/build/flutter_app_badger/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] /Users/gamewan/final_project/build/flutter_app_badger/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/gamewan/final_project/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/gamewan/final_project/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/gamewan/final_project/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/gamewan/final_project/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d77142c07cc4930e9c445b911c0be716/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d77142c07cc4930e9c445b911c0be716/jetified-firebase-analytics-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/811913d1f9d49afd1f305a30760fb08d/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/811913d1f9d49afd1f305a30760fb08d/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1e4596d7d42fb4103faacba9cf799b40/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1e4596d7d42fb4103faacba9cf799b40/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f41936304f1c410a98f38141cc5d0972/jetified-ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f41936304f1c410a98f38141cc5d0972/jetified-ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e535bab45197c5260dcfa2c6e06d9078/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e535bab45197c5260dcfa2c6e06d9078/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/57de8b3c13c50daf03b6eed713bf8689/exifinterface-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/57de8b3c13c50daf03b6eed713bf8689/exifinterface-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/971801a803775143b24e3ff1ce2d1c07/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/971801a803775143b24e3ff1ce2d1c07/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/b14eb4d4179687e99fd44210f49477a4/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/b14eb4d4179687e99fd44210f49477a4/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/460f3ec9a4fecc16bca767b8fab1e9ea/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/460f3ec9a4fecc16bca767b8fab1e9ea/jetified-play-services-measurement-sdk-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9fa991601512de5281a9e7347f2bd1e7/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9fa991601512de5281a9e7347f2bd1e7/jetified-play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3ee07ad2dfbbb18ec9f2cf9748821108/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3ee07ad2dfbbb18ec9f2cf9748821108/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a5d89c105709a5cc17bf3171d0860cd/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a5d89c105709a5cc17bf3171d0860cd/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fce676c3600d2738af5cf11eb4b583dc/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fce676c3600d2738af5cf11eb4b583dc/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a8d78d73708d7b0f06de06b4d97eab3/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/2a8d78d73708d7b0f06de06b4d97eab3/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6d658ab7298d1cf51f476f00b4ba1d74/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6d658ab7298d1cf51f476f00b4ba1d74/jetified-play-services-measurement-base-17.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b6a5c3e0a4ebd5aaf630d193ac05145/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b6a5c3e0a4ebd5aaf630d193ac05145/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8b97523ef74e1b18dc5cf51fc50aabbc/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8b97523ef74e1b18dc5cf51fc50aabbc/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a13e2d2087cd819036eafaeed3394587/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a13e2d2087cd819036eafaeed3394587/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bcebbe6279c8572bd69a0fbec9e382f8/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bcebbe6279c8572bd69a0fbec9e382f8/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1f55a8d9752f1c30f3b5e03ae349aed3/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1f55a8d9752f1c30f3b5e03ae349aed3/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a8257665e303c95d3e5ff25c414f3475/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a8257665e303c95d3e5ff25c414f3475/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/c8f9404afb07f841d7f9ab8fe830e1a0/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/c8f9404afb07f841d7f9ab8fe830e1a0/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/01607e84bef93668e373a264f40e6686/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/01607e84bef93668e373a264f40e6686/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/71411f6b1ea81073448bb802874e7a1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/71411f6b1ea81073448bb802874e7a1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1aac56b7e3311113d2104b96b818f8b7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/1aac56b7e3311113d2104b96b818f8b7/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6b10df0434ab3de027cf7440c672c792/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/6b10df0434ab3de027cf7440c672c792/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/42349a4fcb25201cea8390141b4e9909/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/42349a4fcb25201cea8390141b4e9909/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e2bbc0675b6364716a74ebf118cb9569/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e2bbc0675b6364716a74ebf118cb9569/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e92073c0ceaac885ab6a7f7e0d1902c9/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e92073c0ceaac885ab6a7f7e0d1902c9/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877a1197d5b2248c65ee61346e6431c2/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877a1197d5b2248c65ee61346e6431c2/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb6e555c3934f04ac944c5d2f58e0058/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb6e555c3934f04ac944c5d2f58e0058/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d268927a8c488ee120d74e0e258c0183/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d268927a8c488ee120d74e0e258c0183/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ab761a49ed19a2e89631c7aebafbb257/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ab761a49ed19a2e89631c7aebafbb257/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9c212c07db0336bbe38419cea7c5eb1a/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9c212c07db0336bbe38419cea7c5eb1a/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/15271e74e85ff82ba8d20c7d274c490a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/15271e74e85ff82ba8d20c7d274c490a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/db08de22034385d1b2e79b543e7f608d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/db08de22034385d1b2e79b543e7f608d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b06ebd5991113af047a4d537de97d2f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/4b06ebd5991113af047a4d537de97d2f/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5ff0e9ca13716a55dc46258c591d2cdc/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/623cf910d95fe6d3d763327f2ca30e02/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/623cf910d95fe6d3d763327f2ca30e02/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/93551be13a60d5d3f8a3b1cc9e5c6dcb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/93551be13a60d5d3f8a3b1cc9e5c6dcb/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e3106f2cb215474e2a0dc78203590b2d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e3106f2cb215474e2a0dc78203590b2d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e69258aa4d63577d6aa5ea2547619947/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e69258aa4d63577d6aa5ea2547619947/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/75fc56f6d37601aaa4ef14f428a94986/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/75fc56f6d37601aaa4ef14f428a94986/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb128370d4a03c531cd5eb105731ea32/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bb128370d4a03c531cd5eb105731ea32/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/76e7b6024323e8d3ebb6bd692d4627e2/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/76e7b6024323e8d3ebb6bd692d4627e2/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fa07bd0badbd9f9271061c4bcfd5a16b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fa07bd0badbd9f9271061c4bcfd5a16b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c9439cc03756484129db2bcf57c37/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c9439cc03756484129db2bcf57c37/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ee1db6b6fb420c9013aa994ae1fbb739/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ee1db6b6fb420c9013aa994ae1fbb739/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3e0c329d1e83d02c8fa378a2f6e59c4d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3e0c329d1e83d02c8fa378a2f6e59c4d/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/825316423a6e2c771677160c6b19533a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/825316423a6e2c771677160c6b19533a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3b659bfc43abc2c4e766bc97ed7778f3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/3b659bfc43abc2c4e766bc97ed7778f3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877ba33033338dc30fc12dd24442ce09/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/877ba33033338dc30fc12dd24442ce09/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c7a2687dd0bfb962b4ea52cbfc4ab/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/5b0c7a2687dd0bfb962b4ea52cbfc4ab/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/56021747b2f2239a2d76d36af82961ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/56021747b2f2239a2d76d36af82961ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ce2bc26acdddb59e05429165962ae961/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ce2bc26acdddb59e05429165962ae961/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a3365a7c5df92de28aea48a0697c0c19/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/a3365a7c5df92de28aea48a0697c0c19/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/716fe069a23380ce3dc31827d553e859/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/716fe069a23380ce3dc31827d553e859/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/775fd5c0a3b3b8aab4e9b47d3aa02f06/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/775fd5c0a3b3b8aab4e9b47d3aa02f06/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gamewan/final_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gamewan/final_project/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-76
+service#com.lyokone.location.FlutterLocationService
+ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:56
+	android:enabled
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:foregroundServiceType
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [:location] /Users/gamewan/final_project/build/location/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /Users/gamewan/final_project/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/gamewan/final_project/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-78
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-106
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:12:19-103
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-20:20
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-107
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-19:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:15:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:16:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/gamewan/final_project/build/flutter_local_notifications/intermediates/library_manifest/debug/AndroidManifest.xml:18:25-79
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/gamewan/final_project/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/gamewan/final_project/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/gamewan/final_project/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] /Users/gamewan/final_project/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+provider#com.sangcomz.fishbun.FishBunFileProvider
+ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+	android:exported
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+activity#com.sangcomz.fishbun.ui.album.AlbumActivity
+ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+	android:label
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+	android:theme
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+	android:name
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+activity#com.sangcomz.fishbun.ui.picker.PickerActivity
+ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+	android:theme
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+	android:name
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+activity#com.sangcomz.fishbun.ui.detail.DetailActivity
+ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+	android:theme
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+	android:name
+		ADDED from [com.sangcomz:FishBun:0.11.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/d0f1bdcad146e76e11ea10238385339b/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/56021747b2f2239a2d76d36af82961ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/56021747b2f2239a2d76d36af82961ff/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/0d2c9df6f8b2e02ce0d3115c2be9af25/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.2.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/095cf84eeb16ca7d0dff720e1b1a42fb/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/fb04f806008cfecf180bc36c6a7dd723/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/e4b88a0d0f9b6befe33e75117b6e0ca9/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/9dea84fdd5dbe858fac54f6e29170cad/jetified-play-services-measurement-sdk-api-17.2.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/8049a362b2f190f9242c5dc7133a3feb/jetified-play-services-measurement-api-17.2.2/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f3b9b8fd693b4711758220728924daef/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/f9c50a157b464940f0302fea425c0229/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/ef7e77aa64fc6e517ec9b94528e90014/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/acc6c84f85c6bf5acfc3295581e2e2b9/jetified-play-services-measurement-impl-17.2.2/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/048f3d423a2c6407d27867fd4a302c5b/jetified-play-services-measurement-17.2.2/AndroidManifest.xml:49:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/23457c784871587ecad2caf6affc2261/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/bd0257e1e25a90d60c60ead0f9089f24/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/gamewan/.gradle/caches/transforms-2/files-2.1/103f936c8fa22c7a2f32e6d7ac8719eb/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
